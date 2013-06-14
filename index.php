@@ -935,5 +935,10 @@ foreach($workouts as $k=>$workout):
 <?endforeach;
 
 */?>
+
+<br>
+<a href="ep01"  style="text-decoration:none; color:black;"> <h1 style="text-align:center; font-size:50pt; line-height:50pt;"> Previous Episode </h1> </a>
+<br>
+
 </body>
 </html>
