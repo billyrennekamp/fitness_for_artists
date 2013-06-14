@@ -503,7 +503,7 @@ $workouts = array(
 		"title"=>"",
 		"frames"=>array(
 			array(
-				"image"=>"13 modified burpee f",
+				"image"=>"13 modified burpee f.jpg",
 				"text"=>"Raise back to the plank. Keeping your elbows as close to your ribs as possible."
 				)
 			)
@@ -576,7 +576,7 @@ $workouts = array(
 		"title"=>"",
 		"frames"=>array(
 			array(
-				"image"=>"14 opposite arm leg extension c",
+				"image"=>"14 opposite arm leg extension c.jpg",
 				"text"=>"Extend one leg and the opposite arm away from your body. Make sure to keep your hips parallel to the ground."
 				)
 			)
