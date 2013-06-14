@@ -2,6 +2,9 @@
 error_reporting(E_ALL);
 
 
+
+
+
 $workouts = array(
 
 	array(
