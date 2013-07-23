@@ -546,7 +546,7 @@ $workouts = array(
 	<title>Workout For Artists</title>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 	<script>
-		!window.jQuery && document.write('<script src="js/jquery-1.4.3.min.js"><\/script>');
+		!window.jQuery && document.write('<script src="/js/jquery-1.4.3.min.js"><\/script>');
 	</script>
 	<!--<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>-->
 	<!--<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>-->
@@ -671,7 +671,7 @@ foreach($workouts as $workout){
 	}
 	foreach($workout["frames"] as $frame){
 ?>
-    <a href="img/<?echo$frame["image"];?>"><img src="img/thumbs/<?echo $workout["thumb"];?>" data-title="<?echo$workout["title"];?>" data-description="<?echo$frame["text"];?>"></a>
+    <a href="/img/<?echo$frame["image"];?>"><img src="/img/thumbs/<?echo $workout["thumb"];?>" data-title="<?echo$workout["title"];?>" data-description="<?echo$frame["text"];?>"></a>
 <?
 	}
 
@@ -759,8 +759,5 @@ foreach($workouts as $k=>$workout):
 <?endforeach;
 
 */?>
-<br>
-<a href="/ep02"  style="text-decoration:none; color:black;"> <h1 style="text-align:center; font-size:50pt; line-height:50pt;"> Next Episode </h1> </a>
-<br>
 </body>
 </html>

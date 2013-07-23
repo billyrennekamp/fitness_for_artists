@@ -1,0 +1,351 @@
+<?php
+error_reporting(E_ALL);
+$workouts = array(
+	array(
+		"thumb"=>"1 chest pop thumb.JPG",
+		"time"=>"1:00",
+		"title"=>"Chest Poppin'",
+		"frames"=>array(
+			array(
+				"image"=>"1 chest pop a.JPG",
+				"text"=>"Stand up tall as you squeeze your shoulder blades together and pop forwards."
+				),
+			array(
+				"image"=>"1 chest pop b.JPG",
+				"text"=>"Extend your shoulders, round your back and thrust backwards."
+				)
+			)
+		),
+	array(
+		"thumb"=>"2 twist thumb.JPG",
+		"time"=>"0:45",
+		"title"=>"The Twist",
+		"frames"=>array(
+			array(
+				"image"=>"2 twist a.JPG",
+				"text"=>"Energetically twist your hips and arms"
+				),
+			array(
+				"image"=>"2 twist b.JPG",
+				"text"=>"lets make it work… OUT!"
+				)
+			)
+		),
+	array(
+		"thumb"=>"3 knee to elbow a.JPG",
+		"time"=>"1:00",
+		"title"=>"Knee to Elbow",
+		"frames"=>array(
+			array(
+				"image"=>"3 knee to elbow a.JPG",
+				"text"=>"Stand with your feet shoulder width apart. Lift your arms to shoulder level and bend your elbows at 90 degrees so that your hands are at ear level."
+				),
+			array(
+				"image"=>"3 knee to elbow b.JPG",
+				"text"=>"Thrust your left knee up and forward while you engage your abs to twist your upper body, reaching your right elbow to your raised left knee.
+"
+				)
+			)
+		),
+	array(
+		"thumb"=>"4 windmill thumb.JPG",
+		"time"=>"0:30",
+		"title"=>"Windmill",
+		"frames"=>array(
+			array(
+				"image"=>"4 windmill a.JPG",
+				"text"=>"Stand in a wide stance, knees slightly bent, butt pressed back, chest high, weight on your heels. Keeping your back flat, twist to the right and hinge forward. Reach to your right foot with your left hand while reaching to the sky with the right."
+				),
+			array(
+				"image"=>"4 windmill b.JPG",
+				"text"=>"Repeat on the other side"
+				)
+			)
+		),
+	array(
+		"thumb"=>"5 circle hips thumb.JPG",
+		"time"=>"0:30",
+		"title"=>"Circle Hips",
+		"frames"=>array(
+			array(
+				"image"=>"5 circle hips a.JPG",
+				"text"=>"Stand with legs at shoulder-width apart. Tighten your abdominal muscles and put your hands on your hips and rotate your hips clockwise."
+				),
+			array(
+				"image"=>"5 circle hips b.JPG",
+				"text"=>"Repeat in the other direction"
+				)
+			)
+		),
+	array(
+		"thumb"=>"10 step back lunge thumb.JPG",
+		"time"=>"1:00",
+		"title"=>"Recover",
+		"frames"=>array(
+			array(
+				"image"=>"10 step back lunge a.JPG",
+				"text"=>"Relax and breath smoothly."
+				)
+			)
+		),
+	array(
+		"thumb"=>"6 squat twist press thumb.JPG",
+		"time"=>"1:00",
+		"title"=>"Squat Press Twist",
+		"frames"=>array(
+			array(
+				"image"=>"6 squat twist press a.JPG",
+				"text"=>"Stand with your feet slightly wider than hip-width and raise your hands to the fronts of your shoulders. Lower your body as if sitting in a chair. Keep your back straight and your chest out. Stop when your thighs are parallel to the ground. Don’t let your knees move past your toes."
+				),
+			array(
+				"image"=>"6 squat twist press b.JPG",
+				"text"=>"Push up from your heels to a standing position. Twist your torso and press both hands into the air. Perform the same movement in the other direction. 
+"
+				)
+			)
+		),
+	array(
+		"thumb"=>"7 pushup thumb.JPG",
+		"time"=>"0:30",
+		"title"=>"Pushup",
+		"frames"=>array(
+			array(
+				"image"=>"7 pushup a.JPG",
+				"text"=>"Starting from a plank position, with your core engaged. "
+				),
+			array(
+				"image"=>"7 pushup b.JPG",
+				"text"=>"Lower your torso down until your elbows form a 90 degree angle. "
+				)
+			)
+		),
+	array(
+		"thumb"=>"8 chair pose wall sit thumb.JPG",
+		"time"=>"1:00",
+		"title"=>"Chair Pose",
+		"frames"=>array(
+			array(
+				"image"=>"8 chair pose wall sit.JPG",
+				"text"=>"Exhale and bend your knees and move your upper body forward at about 45 degrees. Keep your shoulders down and away from your ears."
+				),
+			)
+		),
+	array(
+		"thumb"=>"9 seal jumps thumb.JPG",
+		"time"=>"0:30",
+		"title"=>"Seal Jumps",
+		"frames"=>array(
+			array(
+				"image"=>"9 seal jumps a.JPG",
+				"text"=>"Start with your feet about hip-width apart and in a lunge stance with your arms straight out to the sides at shoulder height."
+				),
+			array(
+				"image"=>"9 seal jumps b.JPG",
+				"text"=>"Clap your hands in front of your chest and jump just high enough to switch your stance. Without pausing quickly jump back to the original position. 
+"
+				)
+			)
+		),
+	array(
+		"thumb"=>"10 step back lunge thumb.JPG",
+		"time"=>"1:00",
+		"title"=>"Step Back Lunge",
+		"frames"=>array(
+			array(
+				"image"=>"10 step back lunge a.JPG",
+				"text"=>"Start with your feet about hip-width apart, and your hands on your hips."
+				),
+			array(
+				"image"=>"10 step back lunge b.JPG",
+				"text"=>"Step back with your right leg and bend your left knee to 90 degrees. Keep weight in your front heel and push against the ground with the ball of your back foot. Repeat with the opposite leg."
+				)
+			)
+		),
+	array(
+		"thumb"=>"11 jab cross kick thumb.JPG",
+		"time"=>"0:30",
+		"title"=>"Jab Cross Kick",
+		"frames"=>array(
+			array(
+				"image"=>"11 jab cross kick a.JPG",
+				"text"=>"Starting from a boxing stance, step forward with your lead foot as you extend your arm out. As you recover your lead arm, the rear foot moves forward to return you to your starting stance."
+				),
+			array(
+				"image"=>"11 jab cross kick b.JPG",
+				"text"=>"Quickly extend the back arm forwards as you twist your hips and lift up your back heel. Exhale quickly."
+				),			
+			array(
+				"image"=>"11 jab cross kick c.JPG",
+				"text"=>"Raise your back knee so your thigh is parallel to the ground, about hip level. Kick your leg, snapping it forward quickly.
+"
+				)
+			)
+		),
+	array(
+		"thumb"=>"10 step back lunge thumb.JPG",
+		"time"=>"1:00",
+		"title"=>"Recover",
+		"frames"=>array(
+			array(
+				"image"=>"10 step back lunge a.JPG",
+				"text"=>"Relax and breath smoothly."
+				)
+			)
+		),
+	array(
+		"thumb"=>"12 quick feet thumb.JPG",
+		"time"=>"0:30",
+		"title"=>"Quick Feet",
+		"frames"=>array(
+			array(
+				"image"=>"12 quick feet a.JPG",
+				"text"=>"Stand with your feet shoulder width apart and arms in a running position. Drop your hips low into a squat and lift your feet one at a time as if running in place."
+				),
+			array(
+				"image"=>"12 quick feet b.JPG",
+				"text"=>"Gradually move them faster, keeping your abs tight and your weight on the balls of your feet."
+				)
+			)
+		),
+	array(
+		"thumb"=>"13 punch down thumb.JPG",
+		"time"=>"1:00",
+		"title"=>"Punch Down",
+		"frames"=>array(
+			array(
+				"image"=>"13 punch down a.JPG",
+				"text"=>"Stand in a wide stance with your hands close to your chin. Twist to the side and extend your hand down. Keep your chest straight and bend in the legs, not in the back. "
+				),
+			array(
+				"image"=>"13 punch down b.JPG",
+				"text"=>"Twist on the ball of your foot as you return to center "
+				)
+			)
+		),
+	array(
+		"thumb"=>"14 cross punch thumb.JPG",
+		"time"=>"1:00",
+		"title"=>"Cross Punch",
+		"frames"=>array(
+			array(
+				"image"=>"14 cross punch a.JPG",
+				"text"=>"Stand in a wide stance with your hands close to your chin. Twist to the side and extend your hand diagonally across your body. Lift up your back heel as you throw your hips into the motion. "
+				),
+			array(
+				"image"=>"14 cross punch b.JPG",
+				"text"=>"Twist on the ball of your foot as you return to center "
+				),
+			array(
+				"image"=>"14 cross punch c.JPG",
+				"text"=>"Repeat on the other side.
+"
+				)
+			)
+		),
+	array(
+		"thumb"=>"15 boat pose thumb.JPG",
+		"time"=>"1:00",
+		"title"=>"Boat Pose",
+		"frames"=>array(
+			array(
+				"image"=>"15 boat pose.JPG",
+				"text"=>"Sit with your knees bent and together, feet slightly lifted off the floor. Reach your arms forward and shift your weight into your sit bones, draw your abs in tight, and lift your chest. Straighten the legs to form a V shape with your body. Breath evenly.
+"
+				)
+			)
+		),
+	array(
+		"thumb"=>"16 leg raise a thumb.JPG",
+		"time"=>"1:00",
+		"title"=>"Straight Leg Raise",
+		"frames"=>array(
+			array(
+				"image"=>"16 leg raise a.JPG",
+				"text"=>"Keeping legs straight and together, back flat, lift legs upward until they are straight above hips. 
+"
+				),
+			array(
+				"image"=>"16 leg raise b b.JPG",
+				"text"=>"Lower down to starting position slowly and with control and do not allow feet to touch the ground. "
+				)
+			)
+		),
+	array(
+		"thumb"=>"17 cobra thumb.JPG",
+		"time"=>"1:00",
+		"title"=>"Cobra Pose",
+		"frames"=>array(
+			array(
+				"image"=>"17 cobra.JPG",
+				"text"=>"Push your upper body off the floor and straighten your arms as much as is comfortable while keeping your hips, legs and feet planted on the mat"
+				)
+			)
+		),
+
+
+	);
+
+?>
+<html>
+<head>
+	<title>Workout For Artists</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="/js/jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link rel="stylesheet" href="css/style.css" />
+ 	<script>
+ 	$(document).ready(function(){
+
+ 			<?foreach($workouts as $k=>$workout):?>
+			$("a[rel=group<?echo$k;?>]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'inside',
+				'frameHeight':'100%',
+				"opacity" : "true",
+				"changeFade":0,
+				"changeSpeed":0,
+				'padding':0,
+				'titleFormat': function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			<?endforeach;?>
+		});
+
+ 	</script>
+</head>
+<body>
+<?
+foreach($workouts as $k=>$workout):
+	if(isset($workout["frames"][0])):?>
+		<a class="popup" rel="group<?echo$k;?>" 
+		href="img/<?echo$workout["frames"][0]["image"];?>"
+		title="<?echo$workout["frames"][0]["text"];?>">
+	<?
+	else:
+		continue;
+	endif;
+	?>
+	<table class="workoutbox white">
+		<tr>
+			<td class="workoutimgspan"><img class="workoutimg" src="img/thumbs/<?echo$workout["thumb"];?>"></td>
+			<td class="time"><?echo$workout["time"];?></td>
+			<td class="title"><?echo$workout["title"];?></td>
+		</tr>
+	</table>
+	</a>
+	<div class="hidden" >
+	<?foreach($workout["frames"] as $kk=>$frame):
+	if($kk == 0) continue;
+	?>
+		<a href="img/<?echo$frame["image"];?>" rel="group<?echo$k;?>" title="<?echo$frame["text"];?>"></a>
+	<?endforeach;?>
+	</div>
+<?endforeach;?>
+</body>
+</html>
