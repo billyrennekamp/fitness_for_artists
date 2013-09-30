@@ -18,7 +18,7 @@ $workouts = array(
 			)
 		),
 
-
+);
 
 
 ?>
