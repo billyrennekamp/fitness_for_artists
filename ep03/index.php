@@ -712,7 +712,7 @@ foreach($workouts as $k=>$workout):
 <br>
 <a href="/ep02"  style="text-decoration:none; color:black;"> <h1 style="text-align:center; font-size:50pt; line-height:50pt;"> Previous Episode </h1> </a>
 <br>
-<a href="/ep06"  style="text-decoration:none; color:black;"> <h1 style="text-align:center; font-size:50pt; line-height:50pt;"> Next Episode </h1> </a>
+<a href="/"  style="text-decoration:none; color:black;"> <h1 style="text-align:center; font-size:50pt; line-height:50pt;"> Next Episode </h1> </a>
 <br>
 
 </body>
